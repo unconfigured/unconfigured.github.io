@@ -2,7 +2,12 @@ theme: jekyll-theme-slate
 
 paginate: 1
 
-pages_list:       
+title: unconfigured
+
+navbar-links:       
   about: '/about/'
   all posts: '/archive/'
   github: 'https://github.com/unconfigured'
+
+plugins:
+  - jekyll-paginate
