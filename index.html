@@ -2,6 +2,15 @@
 layout: default
 title: Home
 ---
+<div class="menu">
+  <ul>
+  {% for p in site.pages %}
+    <li>
+      <a href="{{ p.url }}">{{ p.title }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
 
 <div class="posts">
   {% for post in paginator.posts %}
