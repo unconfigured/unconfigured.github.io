@@ -5,3 +5,4 @@ paginate: 1
 pages_list:       
   about: '/about/'
   all posts: '/archive/'
+  github: 'https://github.com/unconfigured'
