@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-<div class="menu">
+<nav>
   <ul>
   {% for p in site.pages %}
     <li>
@@ -10,7 +10,7 @@ title: Home
     </li>
   {% endfor %}
   </ul>
-</div>
+</nav>
 
 <div class="posts">
   {% for post in paginator.posts %}
