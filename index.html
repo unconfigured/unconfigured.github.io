@@ -3,11 +3,13 @@ layout: default
 title: Home
 ---
 <nav>
-  <ul>
+  <ul class="navbar">
   {% for p in site.pages %}
-    <li>
-      <a href="{{ p.url }}">{{ p.title }}</a>
-    </li>
+    {% if page.url == node.url %}
+      <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
+    {% else %}
+      <li><a href="{{node.url}}">{{node.title}}</a></li>
+    {% endif %}
   {% endfor %}
   </ul>
 </nav>
