@@ -3,7 +3,7 @@ theme: jekyll-theme-slate
 paginate: 1
 
 title: unconfigured - A Private Blog
-description: because sharing information helps others
+description: because sharing helps
 
 navbar-links:       
   about: '/about/'
