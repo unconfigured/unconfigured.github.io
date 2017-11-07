@@ -5,7 +5,7 @@ paginate: 1
 title: unconfigured - A Private Blog
 description: because sharing helps
 
-navbar-links:       
+pages:       
   about: '/about/'
   all posts: '/archive/'
   github: 'https://github.com/unconfigured'
