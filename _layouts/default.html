@@ -21,7 +21,7 @@
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
           <section id="downloads">
-            {% for node in site.pages %}
+            {% for node in site.html_pages %}
               {% if page.url == node.url %}
                 <a href="{{node.url}}" class="nav-link-active">{{node.title}}</a>
                 {% else %}
