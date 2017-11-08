@@ -5,10 +5,10 @@ paginate: 1
 title: unconfigured - A Private Blog
 description: because sharing helps
 
-pages:       
-  about: '/about/'
-  all posts: '/archive/'
-  github: 'https://github.com/unconfigured'
+#pages:       
+#  about: '/about/'
+#  all posts: '/archive/'
+#  github: 'https://github.com/unconfigured'
 
 plugins:
   - jekyll-paginate
