@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 
+#header_wrap { background: none; }
 #header_wrap:after {
   content: "";
   background: url("/background.png") no-repeat center;
