@@ -3,14 +3,18 @@
 
 @import "{{ site.theme }}";
 
-#downloads { background-image: none; }
+#downloads {
+  background-image: none;
+  width: auto;
+  text-align: center
+}
 
 .nav-link,
 .nav-link-active {
   display: block;
   float: right;
   width: 75px;
-  height:70px;
+  height: 40px;
   overflow: hidden;
   background-color: lightgray;
   margin-left: 10px;
