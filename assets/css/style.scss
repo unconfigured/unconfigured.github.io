@@ -9,6 +9,12 @@
   text-align: center
 }
 
+@media screen and (max-width: 480px) 
+#downloads {
+  display: block;
+  float: left;
+}
+
 .nav-link,
 .nav-link-active {
   display: block;
@@ -18,11 +24,6 @@
   overflow: hidden;
   background-color: lightgray;
   margin-left: 10px;
-}
-
-@media screen and (max-width: 480px) {
-  display: block;
-  float: left;
 }
 
 .nav-link:hover,
