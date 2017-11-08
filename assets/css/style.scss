@@ -5,7 +5,7 @@
 
 #downloads { background-image: none; }
 
-.nav-link {
+.nav-link .nav-link-active {
   display: block;
   float: right;
   width: 150px;
@@ -15,6 +15,6 @@
   margin-left: 10px;
 }
 
-.nav-link:hover {
+.nav-link:hover .nav-link-active {
   background-color: gray;
 }
