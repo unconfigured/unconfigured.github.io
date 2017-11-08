@@ -6,7 +6,8 @@
 #header_wrap {
   content: "";
   background: url("/background.png") no-repeat center;
-  top: 0px; left: 0px; right: 0px;
+  position: absolute; top: 0px; left: 0px; right: 0px;
+  z-index: -1;
   height: 210px;
   opacity: 0.2;
 }
