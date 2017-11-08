@@ -3,6 +3,14 @@
 
 @import "{{ site.theme }}";
 
+#header-wrap {
+  content: "";
+  background: url("/background.png") no-repeat center;
+  top: 0px; left: 0px; right: 0px;
+  height: 210px;
+  opacity: 0.2;
+}
+
 #downloads {
   background-image: none;
   width: auto;
