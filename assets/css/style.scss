@@ -11,10 +11,10 @@
   width: 90px;
   height:70px;
   overflow: hidden;
-  background: url(../images/sprite_download.png) no-repeat bottom right;
+  background-color: light-gray;
   margin-left: 10px;
 }
 
 .nav-link:hover {
-  background: url(../images/sprite_download.png) no-repeat top left;
+  background-color: gray;
 }
