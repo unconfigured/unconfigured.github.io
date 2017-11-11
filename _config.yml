@@ -1,9 +1,10 @@
 theme: jekyll-theme-slate
 
-paginate: 6
-
 title: unconfigured - A Private Blog
 description: because sharing helps
+
+timezone: Europe/Berlin
+paginate: 6
 
 #pages:       
 #  about: '/about/'
