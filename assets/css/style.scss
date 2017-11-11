@@ -1,6 +1,5 @@
 ---
 ---
-@import "rouge-github";
 @import "{{ site.theme }}";
 
 .inner {
@@ -10,11 +9,13 @@
 pre.highlight {
   padding: 0px;
 }
+pre.highlight pre {
+  box-shadow: none;
+}
 .rouge-table {
   width: 100%;
   margin-bottom: 2px;
   font-size: 0.75em;
-  box-shadow: none;
 }
 
 #header_wrap { background: none; }
