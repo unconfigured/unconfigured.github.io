@@ -7,8 +7,14 @@
   max-width: 800px;
 }
 
-code {
+pre.higlight {
+  padding: 0px;
+}
+#rouge-table {
+  width: 100%;
+  margin-bottom: 2px;
   font-size: 0.75em;
+  box-shadow: none;
 }
 
 #header_wrap { background: none; }
