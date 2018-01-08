@@ -17,6 +17,14 @@
   margin-bottom:16px;
   border: solid 1px #ddd;
   background: #fff;
+}
+
+.highlight td {
+    padding: 8px 15px;
+}
+
+.highlight table pre {
+  margin: 0;
   line-height: 23px;
   white-space: pre;
   overflow-x: auto;
@@ -24,9 +32,6 @@
   word-wrap: inherit;
 }
 
-.highlight td {
-    padding: 8px 15px;
-}
 
 .gl { 
   background: #fafafa;
@@ -41,9 +46,6 @@
   -ms-user-select: none;
   user-select: none;
 }
-
-.highlight table td { padding: 5px; }
-.highlight table pre { margin: 0; }
 
 /*
 .rouge-table {
