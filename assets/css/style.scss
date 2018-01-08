@@ -28,11 +28,12 @@
 .highlight td {
   padding: 8px 15px;
   border: 1px solid #ddd;
-  background-color: #fafafa;
+  background-color: inherit;
 }
 
 .highlight table pre {
   color: #373737;
+  background-color: inherit;
   font-size: 0.75em;
   padding: 0px;
   margin: 0px;
