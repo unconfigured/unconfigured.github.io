@@ -3,11 +3,12 @@ layout: default
 title: Archiv
 ---
 
-2017
-====
-- foo
-- bar
+{% set year = 1970 %}
+{% for post in site.posts %}
+  {% if year != post.date | date: "%Y" %}
+  {% set year = post.date | date: "%Y" %}
+  === {{ year }} ===
+  {% endif %}
+  {{ post.date | date: "%Y-%m-%d" }} - {{ page.title }}
 
-2018
-====
-- baz
+{% endfor %}
