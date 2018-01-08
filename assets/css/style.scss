@@ -11,7 +11,8 @@
 .highlight {
   padding: 0px;
   margin-bottom:16px;
-  background: #fff;
+  box-shadow: none;
+  background-color: inherit;
 }
 
 .highlight code {
@@ -32,8 +33,6 @@
 
 .highlight table pre {
   color: #373737;
-  background-color: inherit;
-  box-shadow: none;
   font-size: 0.75em;
   padding: 0px;
   margin: 0px;
