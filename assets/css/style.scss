@@ -6,18 +6,29 @@
   max-width: 800px;
 }
 
-pre.highlight {
+highlight {
   padding: 0px;
+  margin-bottom:16px;
 }
-pre.highlight pre {
+highlight pre {
   box-shadow: none;
   padding: 0px;
+  #padding:16px;
+  margin-bottom:0;
+  word-break:normal
+  overflow:auto;
+  font-size:85%;
+  line-height:1.45;
+  background-color:#f6f8fa;
+  border-radius:3px
 }
+
 .rouge-table {
   width: 100%;
   margin-bottom: 2px;
   font-size: 0.75em;
 }
+
 
 #header_wrap { background: none; }
 #header_wrap:after {
