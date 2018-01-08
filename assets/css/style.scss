@@ -35,7 +35,7 @@ pre code {
 
 .highlight table pre {
   color: #373737;
-  font-size: 0.75em;
+  font-size: inherit;	/* from code element */
   line-height: 18px;
   background-color: inherit;
   box-shadow: none;
