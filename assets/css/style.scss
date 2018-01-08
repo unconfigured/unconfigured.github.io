@@ -7,18 +7,19 @@
   max-width: 800px;
 }
 
+}
+
+.highlight table {
+  margin-bottom: 0px;
+}
+  
+
 .highlight {
   padding: 0px;
   margin-bottom:16px;
-  background-color: #ffffcc;
-}
-
-.highlight pre {
   border: solid 1px #ddd;
   background: #fff;
-  padding: 0;
   line-height: 23px;
-  margin-bottom: 30px;
   white-space: pre;
   overflow-x: auto;
   word-break: inherit;
