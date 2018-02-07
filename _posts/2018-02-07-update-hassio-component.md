@@ -1,7 +1,12 @@
 ---
 layout: default
-title:  "Updating python component (i.e. bellows for zigbee) in HASS.io"
-categories: "Home Assistant" "HASS.io" "ZigBee" "Raspberry" "Home Automation"
+title:  Updating python component (i.e. bellows for zigbee) in HASS.io
+categories: 
+  - Home Assistant
+  - HASS.io
+  - ZigBee
+  - Raspberry
+  - Home Automation
 ---
 
 I'm currently running Home Assistant on a Raspberry Pi and I am trying to connect some zigbee devices. All of them fail to join. There are lots of reports of errors like mine an lots of changes in bellows, the underlying library used in Home Assistant. But fortunately updating the version of python components or them is quite easy, even within HASS.io.
