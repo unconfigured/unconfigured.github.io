@@ -106,9 +106,6 @@ body {
 .post-title {
   text-align: center;
 }
-.post-title::after {
-  content: "foo"
-}
 
 .post-title a:link {
   color: white;
@@ -156,6 +153,6 @@ body {
 
 #footer_wrap {
   margin-top: 10px;
-  background: #212121
+  background: #212121;
 }
 
