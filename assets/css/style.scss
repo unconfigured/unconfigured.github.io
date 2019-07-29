@@ -1,5 +1,4 @@
 ---
----
 @import "{{ site.theme }}";
 @import url(github.css);
 
@@ -7,18 +6,17 @@
   max-width: 800px;
 }
 
+pre code {
+  padding: 0px;
+  font-size: 0.75em;
+  line-height: 18px;
+}
 
 .highlight {
   padding: 0px;
   margin-bottom:16px;
   box-shadow: none;
   background-color: inherit;
-}
-
-pre code {
-  padding: 0px;
-  font-size: 0.75em;
-  line-height: 18px;
 }
 
 .highlight table {
@@ -148,7 +146,13 @@ body {
   border: 0px;
 }
 
+#main_content {
+  padding-top: 40px;
+  background-color: #212121;
+}
+
 #footer_wrap {
   margin-top: 10px;
+  background: #212121
 }
 
