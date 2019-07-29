@@ -148,8 +148,9 @@ body {
 }
 
 #main_content {
-  padding-top: 40px;
-  background-color: #212121;
+  padding-left: 0;
+  padding-right: 0;
+  bacground-color: #1A1A1A
 }
 
 .post-date {
@@ -164,9 +165,17 @@ body {
 
 .post {
   text-align: justify;
+  background-color: #212121;
+  padding: 10px;
+  margin-button: 20px;
 }
 
 .more {
+  position: absolute;
+  right: 20px;
+}
+
+.newer {
   position: absolute;
   right: 20px;
 }
