@@ -67,15 +67,33 @@ pre code {
 }
 */
 
+body {
+  background-color: black;
+  color: white;
+}
 
-#header_wrap { background: none; }
+#header_wrap { 
+  background: none;
+  border: 0px;
+  height: 220px;
+}
+
 #header_wrap:after {
   content: "";
   background: url("/background.png") no-repeat center;
   position: absolute; top: 0px; left: 0px; right: 0px;
   z-index: -1;
   height: 210px;
-  opacity: 0.2;
+  opacity: 0.7;
+}
+
+#project_tagline, #project_title {
+  text-align: center;
+  background-color: black;
+  display: block;
+  margin: 0px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 #downloads {
@@ -85,6 +103,22 @@ pre code {
   vertical-align: middle;
   font-weight: bold;
   line-height: 60px;
+}
+
+.post-title {
+  text-align: center;
+}
+.post-title::after {
+  content: "foo"
+}
+
+.post-title a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.post-title a:hover {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 480px)  {
@@ -108,5 +142,13 @@ pre code {
 .nav-link:hover,
 .nav-link-active {
   background-color: gray;
+}
+
+#main_content_wrap {
+  border: 0px;
+}
+
+#footer_wrap {
+  margin-top: 10px;
 }
 
