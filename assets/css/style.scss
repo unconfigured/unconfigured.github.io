@@ -131,10 +131,12 @@ body {
   display: block;
   float: right;
   width: 75px;
-  height: 40px;
+  height: 35px;
   overflow: hidden;
   background-color: lightgray;
   margin-left: 10px;
+  margin-top: 50px;
+  color: white;
 }
 
 .nav-link:hover,
@@ -144,6 +146,7 @@ body {
 
 #main_content_wrap {
   border: 0px;
+  background-color: black;
 }
 
 #main_content {
