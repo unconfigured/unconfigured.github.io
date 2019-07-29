@@ -150,7 +150,12 @@ body {
 #main_content {
   padding-left: 0;
   padding-right: 0;
-  bacground-color: #1A1A1A
+  background-color: #1A1A1A
+}
+
+.posts {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .post-date {
@@ -167,7 +172,7 @@ body {
   text-align: justify;
   background-color: #212121;
   padding: 10px;
-  margin-button: 20px;
+  margin-bottom: 20px;
 }
 
 .more {
