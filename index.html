@@ -10,9 +10,8 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
-
+    <hr>
     <span class="post-date">{{ post.date | date_to_string }}</span>
-
     {{ post.content | truncatewords: 75 }}  [<a href="{{ post.url }}">more</a>]
   </div>
   <hr>
