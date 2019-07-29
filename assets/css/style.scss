@@ -1,4 +1,5 @@
 ---
+---
 @import "{{ site.theme }}";
 @import url(github.css);
 
@@ -7,20 +8,20 @@
 }
 
 pre code {
-  padding: 0px;
+  padding: 0;
   font-size: 0.75em;
   line-height: 18px;
 }
 
 .highlight {
-  padding: 0px;
+  padding: 0;
   margin-bottom:16px;
   box-shadow: none;
   background-color: inherit;
 }
 
 .highlight table {
-  margin-bottom: 0px;
+  margin-bottom: 0;
   width: 100%;
   border: none;
 }
@@ -37,8 +38,8 @@ pre code {
   line-height: 18px;
   background-color: inherit;
   box-shadow: none;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   white-space: pre;
   overflow-x: auto;
   word-break: inherit;
@@ -72,14 +73,14 @@ body {
 
 #header_wrap { 
   background: none;
-  border: 0px;
+  border: 0;
   height: 220px;
 }
 
 #header_wrap:after {
   content: "";
   background: url("/background.png") no-repeat center;
-  position: absolute; top: 0px; left: 0px; right: 0px;
+  position: absolute; top: 0; left: 0; right: 0;
   z-index: -1;
   height: 210px;
   opacity: 0.7;
@@ -89,7 +90,7 @@ body {
   text-align: center;
   background-color: black;
   display: block;
-  margin: 0px;
+  margin: 0;
   margin-left: 80px;
   margin-right: 80px;
 }
@@ -142,7 +143,7 @@ body {
 }
 
 #main_content_wrap {
-  border: 0px;
+  border: 0;
   background-color: black;
 }
 
