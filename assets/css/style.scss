@@ -193,7 +193,7 @@ body {
 }
 
 .more::before { content: "[" }
-.more::after { content: "[" }
+.more::after { content: "]" }
 .more {
   position: absolute;
   right: 20px;
