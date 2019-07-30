@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Updating python component (i.e. bellows for zigbee) in HASS.io
+title:  Updating python component in HASS.io
 categories: 
   - Home Assistant
   - HASS.io
