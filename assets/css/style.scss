@@ -50,6 +50,12 @@ pre code {
   word-wrap: inherit;
 }
 
+.highlighter-rouge::before,
+.highlighter-rouge::after {
+  background-color: #212121;
+  content: "'";
+}
+
 .highlighter-rouge {
   padding: 0;
   background-color: #515151;
