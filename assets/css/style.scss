@@ -192,6 +192,8 @@ body {
   margin-bottom: 20px;
 }
 
+.more::before { content: "[" }
+.more::after { content: "[" }
 .more {
   position: absolute;
   right: 20px;
