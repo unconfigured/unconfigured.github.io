@@ -92,6 +92,10 @@ body {
   border: 0;
   height: 220px;
 }
+#header_wrap .inner {
+  padding-left: 0;
+  padding-right: 0;
+}
 
 #header_wrap:after {
   content: "";
