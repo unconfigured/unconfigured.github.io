@@ -50,13 +50,13 @@ pre code {
   word-wrap: inherit;
 }
 
-.highlighter-rouge::before,
-.highlighter-rouge::after {
+code.highlighter-rouge::before,
+code.highlighter-rouge::after {
   background-color: #212121;
   content: "'";
 }
 
-.highlighter-rouge {
+code.highlighter-rouge {
   padding: 0;
   background-color: #515151;
   color: inherit;
