@@ -12,7 +12,7 @@ title: Home
     </h1>
     <hr>
     <span class="post-date">{{ post.date | date_to_string }}</span>
-    {{ post.content | truncatewords: 75 }}  [<a class="more" href="{{ post.url }}">more</a>]
+    {{ post.content | truncatewords: 75 }}  <a class="more" href="{{ post.url }}">more</a>
   </div>
   {% endfor %}
 </div>
